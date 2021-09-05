@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1 id="title">Welcome To Our Form</h1>
+		<p id="description">Send Your Form Now! Places Are Limited</p>
+	</header>
+	<section>
+		<form id="survey-form">
+
+			<label form="name" id="name-label">Name:</label>
+			<input type="text" name="name" id="name" placeholder="Enter your name" required>
+
+			<label for="email" id="email-label">E-mail:</label>
+			<input type="email" name="email" id="email" placeholder="Enter your email" required> 
+			
+			<label for="number" id="number-label">Age: (optional) </label>
+			<input type="number" name="number" id="number" placeholder="Enter your age" max="99" min="18"> 
+
+			<p>Current Level of study:</p>
+			<select id="dropdown">
+				<option>Student</option>
+				<option>Graduated</option>
+			</select>
+
+			<p>You're tallented at:</p>
+			<label><input type="radio" name="field">Designing</label>
+			<label><input type="radio" name="field">Coding</label>
+			<label><input type="radio" name="field">other</label>
+
+			<p>How did you heard about us?</p>
+			<label><input type="checkbox" name="heard" value="Ads">Ads</label>
+			<label><input type="checkbox" name="heard" value="Facebook">Facebook</label>
+			<label><input type="checkbox" name="heard" value="Instagram">Instagram</label>
+			<label><input type="checkbox" name="heard" value="Other">Other</label>
+
+			<p>Tell us more about your expierences and skills:</p>
+			<textarea id="textarea" placeholder="Type here..."></textarea>
+			<input type="submit" id="submit" value="submit">
+		</form>
+	</section>
+</body>
+</html>

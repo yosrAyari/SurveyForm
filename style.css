@@ -1,0 +1,11 @@
+body::before{
+	content: '';
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0;
+	height: 100%;
+ 	width: 100%;
+	background: -webkit-linear-gradient(bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),url('https://resources.owllabs.com/hs-fs/hubfs/Zoom_BG4_Bright-Office-jpg.jpeg?width=898&name=Zoom_BG4_Bright-Office-jpg.jpeg');
+    background-size: 100%;
+    z-index: -1;
+}
